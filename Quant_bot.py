@@ -40,9 +40,9 @@ logger = logging.getLogger("quant_bot")
 # ============================================================
 #  CHANGE THESE — or set as environment variables at venue
 # ============================================================
-WS_URL   = os.getenv("WS_URL",    "ws://10.220.147.182:8081/ws")
-USERNAME = os.getenv("USERNAME",  "aryan")
-PASSWORD = os.getenv("PASSWORD",  "arya_1234asdf")
+WS_URL   = os.getenv("WS_URL",    "")
+USERNAME = os.getenv("USERNAME",  "")
+PASSWORD = os.getenv("PASSWORD",  "")
 # ============================================================
 
 # ---- TUNING KNOBS (tweak between rounds) -------------------
